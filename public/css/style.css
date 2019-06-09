@@ -1,0 +1,11 @@
+.section{
+    margin: 5% 10%;
+    padding: 2% 4%;
+    background-color: white;
+    text-align: left;
+}
+body{
+    background-color: rgba(99, 99, 192, 0.849);
+    text-align: center;
+    
+}

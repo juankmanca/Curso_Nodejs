@@ -1,0 +1,30 @@
+{{>Navigation}}
+    
+        <h1>Registrar nuevo curso</h1>
+<div class="section" >
+<form action="Matricular" class="card" method="POST">
+    <div class="form-group">
+        <label>Nombre Completo:</label>
+        <input type="text" name="nombre" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>id:</label>
+        <input type="number" name="id" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>correo: </label>
+        <input type="tex" name="correo" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label>telefono: </label>
+        <input type="number" name="telefono" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label >Curso al que se desea matricular:</label>
+        {{{listarCursosDisponibles}}}
+    </div>
+    <input type="submit" value="Guardar" class="btn btn-success">
+    </form>
+    </div>
+
+{{>footer}}
